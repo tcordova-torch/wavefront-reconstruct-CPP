@@ -1,0 +1,8 @@
+<cxpconfiguration links="4" linkgroups="1">
+	<linkgroup speed="6250" streampacketsize="4096">
+		<link phyIndex="0" vaIndex="0" isMaster="true"/>
+		<link phyIndex="1" vaIndex="1"/>
+		<link phyIndex="2" vaIndex="2"/>
+		<link phyIndex="3" vaIndex="3"/>
+	</linkgroup>
+</cxpconfiguration>

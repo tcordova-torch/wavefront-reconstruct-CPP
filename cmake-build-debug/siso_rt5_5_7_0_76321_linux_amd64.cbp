@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="siso_rt5_5_7_0_76321_linux_amd64"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="siso_rt5_5_7_0_76321_linux_amd64">
+				<Option output="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/siso_rt5_5_7_0_76321_linux_amd64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include"/>
+					<Add directory="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 siso_rt5_5_7_0_76321_linux_amd64"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="siso_rt5_5_7_0_76321_linux_amd64/fast">
+				<Option output="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/siso_rt5_5_7_0_76321_linux_amd64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include"/>
+					<Add directory="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 siso_rt5_5_7_0_76321_linux_amd64/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/SimpleExample/doAligns.cpp">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/SimpleExample/doAligns.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/SimpleExample/viewAndAlign.cpp">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/include/board_and_dll_chooser.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/SDKExamples/include/globalFunctions.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/SisoDisplay.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/boardfeatures.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/clser.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/fgrab_define.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/fgrab_prototyp.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/fgrab_struct.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/gbe.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/gbe_error.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/hap.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/hap_os.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/os_funcs.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/os_type.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoIo.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoIoBmpErrorCodes.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoIoFileErrorCodes.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoIoRawErrorCoedes.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoIoTiffErrorCodes.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/siso_auxport.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/siso_genicam.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/siso_genicam_error.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/siso_hal.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/siso_log.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/sisoboards.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/include/version.h">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/common-logging-log4cxx.gs.xml">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/common-logging-log4cxx.xml">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/gs_0.log">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libclsersis.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libcommon-logging-dispatcher.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libcommon-logging-log4cxx.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libcommon-logging-siso.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libdisplay.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libfglib5.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libgbe.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libgbelib.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libgenicam.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libhaprt.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-core.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-debugview-qt4.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-display-fglib.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-display-qt4.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-display.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-environment.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-fglib-model.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-frameprocessing.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-genicam-model.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-gsclient.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-gui-core.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-model-qt4.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-parameters-qt4.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-parameters.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-plex.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-processor-qt4-core.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso-lib-testframework.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_auxport.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_genicam.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_hal.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_hw.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_hw_me4.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_hw_me5.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsiso_log.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/lib64/libsisoiolibrt.so">
+			<Option target="siso_rt5_5_7_0_76321_linux_amd64"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/opt/SiliconSoftware/Runtime5.7.0/siso-rt5-5.7.0.76321-linux-amd64/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,39 @@
+PROJECT(action-examples)
+
+CMAKE_MINIMUM_REQUIRED(VERSION 2.4)
+
+FILE(TO_CMAKE_PATH "$ENV{SISODIR5}" SISODIR5)
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_INSTALL_PREFIX}/cmake/modules" "${SISODIR5}/cmake/modules")
+
+INCLUDE(SisoPlatform)
+FIND_PACKAGE(FgLib5 REQUIRED)
+FIND_PACKAGE(SisoDisplayLib REQUIRED)
+FIND_PACKAGE(GbeLib REQUIRED)
+
+IF(COMMAND cmake_policy)
+    cmake_policy(SET CMP0003 NEW)
+ENDIF(COMMAND cmake_policy)
+
+INCLUDE_DIRECTORIES(
+    ${FGLIB5_INCLUDE_DIR}
+    ${SISODISPLAYLIB_INCLUDE_DIR}
+    ${GBELIB_INCLUDE_DIR}
+)
+
+SET(HEADER_FILES
+    error-handling-common.h
+    error-handling-gbe.h
+    helper-common.h
+)
+
+SET(SOURCE_FILES
+    action-full-example.cpp
+)
+
+ADD_EXECUTABLE(action-full-example ${HEADER_FILES} ${SOURCE_FILES})
+
+IF (UNIX)
+    SET_TARGET_PROPERTIES(action-full-example PROPERTIES COMPILE_FLAGS -fPIC)
+ENDIF (UNIX)
+
+TARGET_LINK_LIBRARIES(action-full-example ${FGLIB5_LIBRARY} ${SISODISPLAYLIB_LIBRARIES} ${GBELIB_LIBRARY})
